@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/pilot34/Reader.git' }
 
   s.platform = :ios
-
+  s.requires_arc = true
   s.source_files = 'Sources/**/*.{h,m}'
 
   s.resources = "Resources/**/*.{pdf,srings}"
